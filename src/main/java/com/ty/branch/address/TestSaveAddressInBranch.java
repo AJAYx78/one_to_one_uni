@@ -20,13 +20,14 @@ public static void main(String[] args) {
 	branch.setPhone(894654313l);
 	
 	Address address=new Address();
-	address.setStreet("Bull temple Road");
+	address.setStreet("Bull temple road  Road");
 	address.setLandmark("Main cirlce");
 	address.setDistrict("Bendakaluru");
-	address.setState("Karnataka");
+	address.setState("Karnataka  karnataka ");
 	address.setPincode("560076");
 	
 	branch.setAddress(address);
+	
 	
 	
 	entityTransaction.begin();
