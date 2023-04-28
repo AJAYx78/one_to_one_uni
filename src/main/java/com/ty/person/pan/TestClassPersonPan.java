@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 public class TestClassPersonPan {
 public static void main(String[] args) {
 	
-	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("vikas");
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Ajay");
 	EntityManager entityManager = entityManagerFactory.createEntityManager();
 	EntityTransaction entityTransaction = entityManager.getTransaction();
 	
